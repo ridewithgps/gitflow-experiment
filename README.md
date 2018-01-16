@@ -19,10 +19,10 @@ model.
 ## Work on a new feature off of the develop branch.
 This would be done for each GH issue during a feature development cycle.
 
-```git-flow feature start myfeature```
+```git-flow feature start feature-xxx```
 
 * Do some editing, commit, etc.
-* Now, publish this work to your fork (this does to ```your-fork/myfeature```)
+* Now, publish this work to your fork (this does to ```myfork/feature-xxx```)
 
 ```git-flow feature publish```
 
