@@ -1,11 +1,14 @@
 # gitflow-experiment
+Testing for gitflow's compatibility with GitHub PRs and the fork
+model.
+
 ## Setup
 * On GH, make a fork of RWGPS/gitflow-experiment.git
 * clone your fork onto your computer
 
 ```git clone git@github.com:<your-GH-username-here>/gitflow-experiment.git```
 
-* setup remote to point to RWGPS central repo
+* setup an "upstream" remote to point to RWGPS central repo
 
 ```git remote add upstream git@github.com:ridewithgps/gitflow-experiment.git```
 
@@ -13,7 +16,8 @@
 
 ```git branch -u upstream/develop develop```
 
-## Work on a new feature off of develop
+## Work on a new feature off of the develop branch.
+This would be done for each GH issue during a feature development cycle.
 
 ```git-flow feature start myfeature```
 
