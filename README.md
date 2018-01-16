@@ -1,4 +1,4 @@
-# gitflow-experiment
+# gitflow-experiment version 1.8.1
 Testing for gitflow's compatibility with GitHub PRs and the fork
 model.
 
@@ -34,6 +34,13 @@ This would be done for each GH issue during a feature development cycle.
 * Notice that branch has now been deleted from your local repo as well.
 
 ## Make a new release
+* Make a new release branch off of develop
 
 ```git flow release start release_1.8.1```
+
+* Do some more editing and committing, like you do
+* Make PRs for any final fixes?
+* When done, run
+
+```git flow release publish```
 
