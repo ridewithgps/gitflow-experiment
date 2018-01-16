@@ -22,8 +22,7 @@
 
 ```git-flow feature publish```
 
-* Make a PR on GitHub from the newly published branch of your fork on
-* RWGPS upstream repo
+* Make a PR on GitHub from the newly published branch of your fork on RWGPS upstream repo
 * Get a review, merge the PR
 * Now, back on your machine, close out the feature branch:
 
