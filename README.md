@@ -18,4 +18,9 @@
 * Get a review, merge the PR
 * Now, back on your machine, close out the feature branch:
 ```git-flow feature finish```
+* Notice that branch has now been deleted from your local repo as well.
+
+## Make a new release
+
+```git flow release start release_1.8.1```
 
