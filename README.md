@@ -19,3 +19,7 @@
 * Now, back on your machine, close out the feature branch:
 ```git-flow feature finish```
 
+## Make a new release
+
+```git flow release start release_1.8.1```
+
