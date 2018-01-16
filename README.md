@@ -6,3 +6,6 @@ git clone git@github.com:<your-GH-username-here>/gitflow-experiment.git
 git remote add upstream git@github.com:ridewithgps/gitflow-experiment.git
 # setup to track the RWGPS "upstream" remote develop branch as our local "develop"
 git branch -u upstream/develop develop
+
+# start a feature off of develop
+git-flow feature start myfeature
