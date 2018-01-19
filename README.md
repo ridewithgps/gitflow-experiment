@@ -12,9 +12,14 @@ model.
 
 ```git remote add upstream git@github.com:ridewithgps/gitflow-experiment.git```
 
-* setup to track the RWGPS "upstream" remote develop branch as our local "develop"
+* setup to track the RWGPS "upstream" remote develop and master branches
 
 ```git branch -u upstream/develop develop```
+```git branch -u upstream/master master```
+
+* get all the things
+
+```git fetch --all```
 
 ## Work on a new feature off of the develop branch.
 This would be done for each GH issue during a feature development cycle.
