@@ -46,3 +46,5 @@ This would be done for each GH issue during a feature development cycle.
 
 ```git flow release publish```
 
+## Adding more features
+* Feature_2
