@@ -1,21 +1,18 @@
 # gitflow-experiment version 1.8.3
-Testing for gitflow's compatibility with GitHub PRs and the fork
-model.
+Testing for gitflow's compatibility with GitHub PRs
 
 ## Setup
-* On GH, make a fork of RWGPS/gitflow-experiment.git
+* On GH, make a clone of RWGPS/gitflow-experiment.git
 * clone your fork onto your computer
 
 ```git clone git@github.com:<your-GH-username-here>/gitflow-experiment.git```
 
-* setup an "upstream" remote to point to RWGPS central repo
+* setup an "origin" remote to point to RWGPS central repo
 
-```git remote add upstream git@github.com:ridewithgps/gitflow-experiment.git```
+```git remote add origin git@github.com:ridewithgps/gitflow-experiment.git```
 
-* setup to track the RWGPS "upstream" remote develop and master branches
-
-```git branch -u upstream/develop develop```
-```git branch -u upstream/master master```
+```git branch -u origin/develop develop```
+```git branch -u origin/master master```
 
 * get all the things
 
