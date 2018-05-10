@@ -1,4 +1,4 @@
-# gitflow-experiment version 1.9.5
+# gitflow-experiment version 1.9.6
 Testing for gitflow's compatibility with GitHub PRs
 
 ## Setup
