@@ -1,4 +1,4 @@
-# gitflow-experiment version 1.8.3
+# gitflow-experiment version 1.9.2
 Testing for gitflow's compatibility with GitHub PRs
 
 ## Setup
@@ -46,3 +46,5 @@ This would be done for each GH issue during a feature development cycle.
 
 ```git flow release publish```
 
+## Adding more features
+* Feature_2
